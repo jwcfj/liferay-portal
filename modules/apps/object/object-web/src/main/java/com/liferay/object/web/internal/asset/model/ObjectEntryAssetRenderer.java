@@ -261,6 +261,7 @@ public class ObjectEntryAssetRenderer
 
 		return StringBundler.concat(
 			themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+			"/portal",
 			GroupConstants.CMS_FRIENDLY_URL,
 			"/edit_content_item?objectEntryId=",
 			_objectEntry.getObjectEntryId(), "&p_l_mode=", mode, "&redirect=",

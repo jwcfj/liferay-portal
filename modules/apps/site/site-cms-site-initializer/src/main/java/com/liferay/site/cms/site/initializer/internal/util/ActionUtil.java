@@ -924,6 +924,7 @@ public class ActionUtil {
 			"redirect",
 			StringBundler.concat(
 				themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+				"/portal",
 				GroupConstants.CMS_FRIENDLY_URL,
 				"/add_structured_content_item?objectDefinitionId=",
 				objectDefinition.getObjectDefinitionId(),

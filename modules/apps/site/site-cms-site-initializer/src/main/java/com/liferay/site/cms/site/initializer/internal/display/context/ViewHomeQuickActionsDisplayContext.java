@@ -112,6 +112,7 @@ public class ViewHomeQuickActionsDisplayContext {
 			"redirect",
 			StringBundler.concat(
 				_themeDisplay.getPortalURL(), _themeDisplay.getPathMain(),
+				"/portal",
 				GroupConstants.CMS_FRIENDLY_URL,
 				"/add_structured_content_item?objectDefinitionId=",
 				objectDefinition.getObjectDefinitionId(),

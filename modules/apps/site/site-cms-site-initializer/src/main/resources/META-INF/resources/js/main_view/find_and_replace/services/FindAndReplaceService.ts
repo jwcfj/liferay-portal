@@ -31,7 +31,7 @@ async function getReplaceItems({
 
 	const response = await ApiHelper.postFormData<ReplaceItem[]>(
 		formData,
-		`${Liferay.ThemeDisplay.getPathMain()}/cms/get_object_entries_values`
+		`${Liferay.ThemeDisplay.getPathMain()}/portal/cms/get_object_entries_values` //checar
 	);
 
 	if (response.error || !response.data) {

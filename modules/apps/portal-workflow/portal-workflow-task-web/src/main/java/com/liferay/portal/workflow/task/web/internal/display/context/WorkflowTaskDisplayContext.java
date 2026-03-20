@@ -492,6 +492,7 @@ public class WorkflowTaskDisplayContext {
 		if (group.isCMS()) {
 			return StringBundler.concat(
 				themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+				"/portal",
 				GroupConstants.CMS_FRIENDLY_URL,
 				"/edit_content_item?objectEntryId=",
 				getWorkflowContextEntryClassPK(

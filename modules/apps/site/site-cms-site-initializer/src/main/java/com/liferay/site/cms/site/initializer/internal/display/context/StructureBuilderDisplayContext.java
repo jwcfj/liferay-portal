@@ -105,7 +105,7 @@ public class StructureBuilderDisplayContext {
 			).put(
 				"editStructureDisplayPageURL",
 				() -> StringBundler.concat(
-					_themeDisplay.getPortalURL(), _themeDisplay.getPathMain(),
+					_themeDisplay.getPortalURL(), _themeDisplay.getPathMain(), "/portal",
 					"/cms/edit_structure_display_page")
 			).put(
 				"isReferenced",
@@ -129,12 +129,12 @@ public class StructureBuilderDisplayContext {
 			).put(
 				"resetStructureDisplayPageURL",
 				() -> StringBundler.concat(
-					_themeDisplay.getPortalURL(), _themeDisplay.getPathMain(),
+					_themeDisplay.getPortalURL(), _themeDisplay.getPathMain(), "/portal",
 					"/cms/reset_structure_display_page")
 			).put(
 				"resetTranslationDisplayPageURL",
 				() -> StringBundler.concat(
-					_themeDisplay.getPortalURL(), _themeDisplay.getPathMain(),
+					_themeDisplay.getPortalURL(), _themeDisplay.getPathMain(), "/portal",
 					"/cms/reset_translation_display_page")
 			).put(
 				"spaceExternalReferenceCode",

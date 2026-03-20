@@ -95,6 +95,7 @@ public class ViewVersionHistoryDisplayContext {
 			new FDSActionDropdownItem(
 				StringBundler.concat(
 					_themeDisplay.getPortalURL(), _themeDisplay.getPathMain(),
+					"/portal",
 					GroupConstants.CMS_FRIENDLY_URL,
 					"/edit_content_item?objectEntryId={id}",
 					"&p_l_mode=read&p_p_state=", LiferayWindowState.POP_UP,

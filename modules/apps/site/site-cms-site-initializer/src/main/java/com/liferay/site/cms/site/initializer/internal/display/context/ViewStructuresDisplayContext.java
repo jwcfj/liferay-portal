@@ -181,7 +181,7 @@ public class ViewStructuresDisplayContext {
 				"permissions", "modal-permissions"),
 			new FDSActionDropdownItem(
 				StringBundler.concat(
-					_themeDisplay.getPortalURL(), _themeDisplay.getPathMain(),
+					_themeDisplay.getPortalURL(), _themeDisplay.getPathMain(), "/portal",
 					"/cms/get_object_definition_deletion_info?",
 					"objectDefinitionId={id}"),
 				"trash", "delete",

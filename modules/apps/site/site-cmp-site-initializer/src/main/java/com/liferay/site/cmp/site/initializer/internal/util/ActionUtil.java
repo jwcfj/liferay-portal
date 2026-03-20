@@ -21,7 +21,7 @@ public class ActionUtil {
 		ObjectDefinition objectDefinition, ThemeDisplay themeDisplay) {
 
 		return StringBundler.concat(
-			themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+			themeDisplay.getPortalURL(), themeDisplay.getPathMain(), "/portal",
 			GroupConstants.CMS_FRIENDLY_URL, "/add_project?objectDefinitionId=",
 			objectDefinition.getObjectDefinitionId(), "&plid=",
 			themeDisplay.getPlid(), "&redirect=", themeDisplay.getURLCurrent());
@@ -32,7 +32,7 @@ public class ActionUtil {
 		String redirect, ThemeDisplay themeDisplay) {
 
 		return StringBundler.concat(
-			themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+			themeDisplay.getPortalURL(), themeDisplay.getPathMain(), "/portal",
 			GroupConstants.CMS_FRIENDLY_URL, "/add_task?objectDefinitionId=",
 			objectDefinition.getObjectDefinitionId(), "&plid=",
 			themeDisplay.getPlid(), "&projectGroupId=", groupId, "&projectId=",

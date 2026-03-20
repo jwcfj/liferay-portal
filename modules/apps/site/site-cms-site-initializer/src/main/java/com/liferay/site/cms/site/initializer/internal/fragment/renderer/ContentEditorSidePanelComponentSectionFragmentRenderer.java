@@ -137,6 +137,7 @@ public class ContentEditorSidePanelComponentSectionFragmentRenderer
 
 					return StringBundler.concat(
 						themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+						"/portal",
 						GroupConstants.CMS_FRIENDLY_URL,
 						"/add_content_item_comment?classNameId=", classNameId,
 						"&classPK=", objectEntry.getObjectEntryId());
@@ -204,12 +205,13 @@ public class ContentEditorSidePanelComponentSectionFragmentRenderer
 		).put(
 			"deleteCommentURL",
 			StringBundler.concat(
-				themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+				themeDisplay.getPortalURL(), themeDisplay.getPathMain(), "/portal",
 				GroupConstants.CMS_FRIENDLY_URL, "/delete_content_item_comment")
 		).put(
 			"editCommentURL",
 			StringBundler.concat(
 				themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+				"/portal",
 				GroupConstants.CMS_FRIENDLY_URL,
 				"/edit_content_item_comment?classNameId=", classNameId,
 				"&classPK=", objectEntry.getObjectEntryId())
@@ -275,6 +277,7 @@ public class ContentEditorSidePanelComponentSectionFragmentRenderer
 			"subscribeURL",
 			StringBundler.concat(
 				themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+				"/portal",
 				GroupConstants.CMS_FRIENDLY_URL,
 				"/subscribe_content_item?classNameId=", classNameId,
 				"&classPK=", objectEntry.getObjectEntryId(),

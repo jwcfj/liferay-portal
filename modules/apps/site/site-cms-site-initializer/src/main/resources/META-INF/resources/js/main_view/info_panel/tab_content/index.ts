@@ -174,7 +174,7 @@ export const VERSION_ACTIONS: any = {
 						objectEntry.systemProperties.version.number
 					)}`
 				),
-				url: `${VIEW_CONTENT_VERSION_URL}/edit_content_item?objectEntryId=${objectEntry.id}&p_l_mode=read&version=${objectEntry.systemProperties.version.number}`,
+				url: `${VIEW_CONTENT_VERSION_URL}/edit_content_item?objectEntryId=${objectEntry.id}&p_l_mode=read&version=${objectEntry.systemProperties.version.number}`,// checar isso
 			});
 		},
 	},

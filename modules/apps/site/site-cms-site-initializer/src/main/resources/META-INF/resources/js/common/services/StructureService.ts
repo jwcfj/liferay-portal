@@ -171,7 +171,7 @@ async function updateStructure({
 
 	const response = await ApiHelper.postFormData(
 		formData,
-		`${pathMain}/cms/update-structure`
+		`${pathMain}/portal/cms/update-structure`//checar depois
 	);
 
 	if (response?.error) {
@@ -194,7 +194,7 @@ async function deleteStructure({id}: {id: Structure['id']}) {
 
 	const response = await ApiHelper.postFormData(
 		formData,
-		`${pathMain}/cms/delete-structure`
+		`${pathMain}/portal/cms/delete-structure`
 	);
 
 	if (response?.error) {

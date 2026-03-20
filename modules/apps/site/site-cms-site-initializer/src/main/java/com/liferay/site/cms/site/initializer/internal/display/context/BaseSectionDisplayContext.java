@@ -195,18 +195,21 @@ public abstract class BaseSectionDisplayContext {
 				"addCommentURL",
 				StringBundler.concat(
 					themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+					"/portal",
 					GroupConstants.CMS_FRIENDLY_URL,
 					"/add_content_item_comment")
 			).put(
 				"deleteCommentURL",
 				StringBundler.concat(
 					themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+					"/portal",
 					GroupConstants.CMS_FRIENDLY_URL,
 					"/delete_content_item_comment")
 			).put(
 				"editCommentURL",
 				StringBundler.concat(
 					themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+					"/portal",
 					GroupConstants.CMS_FRIENDLY_URL,
 					"/edit_content_item_comment")
 			).put(
@@ -228,13 +231,14 @@ public abstract class BaseSectionDisplayContext {
 			).put(
 				"getCommentsURL",
 				StringBundler.concat(
-					themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+					themeDisplay.getPortalURL(), themeDisplay.getPathMain(), "/portal",
 					GroupConstants.CMS_FRIENDLY_URL, "/get_asset_comments")
 			).build()
 		).put(
 			"contentViewURL",
 			StringBundler.concat(
 				themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+				"/portal",
 				GroupConstants.CMS_FRIENDLY_URL,
 				"/edit_content_item?&p_l_mode=read&p_p_state=",
 				LiferayWindowState.POP_UP, "&redirect=",

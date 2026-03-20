@@ -101,6 +101,7 @@ public class ViewStructureUsagesDisplayContext {
 			new FDSActionDropdownItem(
 				StringBundler.concat(
 					_themeDisplay.getPortalURL(), _themeDisplay.getPathMain(),
+					"/portal",
 					GroupConstants.CMS_FRIENDLY_URL,
 					"/edit_content_item?objectEntryId={embedded.id}&",
 					"redirect=", _themeDisplay.getURLCurrent()),
