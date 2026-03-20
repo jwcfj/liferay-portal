@@ -189,7 +189,7 @@ public class ResetTranslationDisplayPageStrutsActionTest {
 	@Inject
 	private Portal _portal;
 
-	@Inject(filter = "path=/cms/reset_translation_display_page")
+	@Inject(filter = "path=/portal/cms/reset_translation_display_page")
 	private StrutsAction _resetStructureDisplayPageStrutsAction;
 
 }

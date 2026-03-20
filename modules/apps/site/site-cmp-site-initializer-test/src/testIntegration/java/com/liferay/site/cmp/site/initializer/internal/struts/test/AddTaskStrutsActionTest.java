@@ -132,7 +132,7 @@ public class AddTaskStrutsActionTest {
 				tagNames[0], _taskObjectDefinition.getExternalReferenceCode()));
 	}
 
-	@Inject(filter = "path=/cms/add_task")
+	@Inject(filter = "path=/portal/cms/add_task")
 	private StrutsAction _addTaskStrutsAction;
 
 	@Inject

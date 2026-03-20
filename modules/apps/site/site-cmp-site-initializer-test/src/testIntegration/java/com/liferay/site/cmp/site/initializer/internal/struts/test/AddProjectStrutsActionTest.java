@@ -113,7 +113,7 @@ public class AddProjectStrutsActionTest {
 			WorkflowConstants.STATUS_DRAFT, objectEntry.getStatus());
 	}
 
-	@Inject(filter = "path=/cms/add_project")
+	@Inject(filter = "path=/portal/cms/add_project")
 	private StrutsAction _addProjectStrutsAction;
 
 	@Inject

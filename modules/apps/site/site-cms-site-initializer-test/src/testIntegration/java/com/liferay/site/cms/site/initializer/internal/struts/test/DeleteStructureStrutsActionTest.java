@@ -91,7 +91,7 @@ public class DeleteStructureStrutsActionTest {
 				objectDefinition3.getObjectDefinitionId()));
 	}
 
-	@Inject(filter = "path=/cms/delete-structure")
+	@Inject(filter = "path=/portal/cms/delete-structure")
 	private StrutsAction _deleteStructureStrutsAction;
 
 	@Inject

@@ -231,7 +231,7 @@ public class ResetStructureDisplayPageStrutsActionTest {
 	@Inject
 	private Portal _portal;
 
-	@Inject(filter = "path=/cms/reset_structure_display_page")
+	@Inject(filter = "path=/portal/cms/reset_structure_display_page")
 	private StrutsAction _resetStructureDisplayPageStrutsAction;
 
 }

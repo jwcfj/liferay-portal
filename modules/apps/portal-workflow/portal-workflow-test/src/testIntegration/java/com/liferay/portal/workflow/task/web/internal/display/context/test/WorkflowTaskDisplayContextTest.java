@@ -74,7 +74,7 @@ public class WorkflowTaskDisplayContextTest {
 	public void testGetTaglibEditURL() throws Exception {
 		String taglibEditURL = _getTaglibEditURL(_cmsGroup);
 
-		Assert.assertTrue(taglibEditURL.contains("cms/edit_content_item"));
+		Assert.assertTrue(taglibEditURL.contains("portal/cms/edit_content_item"));
 
 		taglibEditURL = _getTaglibEditURL(_group);
 

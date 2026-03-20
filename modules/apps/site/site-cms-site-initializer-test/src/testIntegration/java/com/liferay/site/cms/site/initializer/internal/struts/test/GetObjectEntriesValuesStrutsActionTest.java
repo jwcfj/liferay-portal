@@ -478,7 +478,7 @@ public class GetObjectEntriesValuesStrutsActionTest {
 	@Inject
 	private CompanyLocalService _companyLocalService;
 
-	@Inject(filter = "path=/cms/get_object_entries_values")
+	@Inject(filter = "path=/portal/cms/get_object_entries_values")
 	private StrutsAction _getObjectEntriesValuesStrutsAction;
 
 	@Inject

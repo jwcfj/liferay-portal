@@ -70,6 +70,7 @@ public class EditorToolbarComponentSectionFragmentRendererTest
 		Assert.assertEquals(
 			StringBundler.concat(
 				themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+				"/portal",
 				GroupConstants.CMS_FRIENDLY_URL,
 				"/add_task?objectDefinitionId=",
 				taskObjectDefinition.getObjectDefinitionId(), "&plid=",

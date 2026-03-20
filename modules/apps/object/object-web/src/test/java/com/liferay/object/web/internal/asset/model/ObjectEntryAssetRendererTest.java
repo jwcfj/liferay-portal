@@ -279,7 +279,7 @@ public class ObjectEntryAssetRendererTest {
 		);
 
 		return StringBundler.concat(
-			portalURL, pathMain, GroupConstants.CMS_FRIENDLY_URL,
+			portalURL, pathMain, "/portal", GroupConstants.CMS_FRIENDLY_URL,
 			"/edit_content_item?objectEntryId=", objectEntryId,
 			"&p_l_mode=read&redirect=", HtmlUtil.escapeURL(urlCurrent));
 	}

@@ -72,6 +72,7 @@ public class ViewProjectsSectionDisplayContextTest
 		Assert.assertEquals(
 			StringBundler.concat(
 				themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+				"/portal",
 				GroupConstants.CMS_FRIENDLY_URL,
 				"/add_project?objectDefinitionId=",
 				objectDefinition.getObjectDefinitionId(), "&plid=",

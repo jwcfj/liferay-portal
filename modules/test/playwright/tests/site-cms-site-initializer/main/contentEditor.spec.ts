@@ -475,7 +475,7 @@ test.describe('Comments Panel', () => {
 
 	test('Error when a comment is edited', async ({contentsPage, page}) => {
 		await page.route(
-			'**/c/cms/edit_content_item_comment?**',
+			'**/c/portal/cms/edit_content_item_comment?**',
 			async (route) => {
 				await route.fulfill({
 					body: JSON.stringify({error: ''}),
@@ -520,7 +520,7 @@ test.describe('Comments Panel', () => {
 
 	test('Error when a comment is added', async ({contentsPage, page}) => {
 		await page.route(
-			'**/c/cms/add_content_item_comment?**',
+			'**/c/portal/cms/add_content_item_comment?**',
 			async (route) => {
 				await route.fulfill({
 					body: JSON.stringify({error: ''}),

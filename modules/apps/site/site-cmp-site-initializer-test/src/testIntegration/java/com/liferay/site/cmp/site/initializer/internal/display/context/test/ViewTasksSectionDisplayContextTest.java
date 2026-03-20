@@ -121,6 +121,7 @@ public class ViewTasksSectionDisplayContextTest
 		Assert.assertEquals(
 			StringBundler.concat(
 				themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+				"/portal",
 				GroupConstants.CMS_FRIENDLY_URL,
 				"/add_project?objectDefinitionId=",
 				_projectObjectDefinition.getObjectDefinitionId(), "&plid=",
@@ -131,6 +132,7 @@ public class ViewTasksSectionDisplayContextTest
 		Assert.assertEquals(
 			StringBundler.concat(
 				themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+				"/portal",
 				GroupConstants.CMS_FRIENDLY_URL,
 				"/add_task?objectDefinitionId=",
 				objectDefinition.getObjectDefinitionId(), "&plid=",
@@ -145,6 +147,7 @@ public class ViewTasksSectionDisplayContextTest
 		Assert.assertEquals(
 			StringBundler.concat(
 				themeDisplay.getPortalURL(), themeDisplay.getPathMain(),
+				"/portal",
 				GroupConstants.CMS_FRIENDLY_URL,
 				"/add_task?objectDefinitionId=",
 				objectDefinition.getObjectDefinitionId(), "&plid=",

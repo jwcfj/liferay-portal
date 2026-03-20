@@ -249,7 +249,7 @@ public class EditStructureDisplayPageStrutsActionTest {
 	@Inject
 	private DepotEntryLocalService _depotEntryLocalService;
 
-	@Inject(filter = "path=/cms/edit_structure_display_page")
+	@Inject(filter = "path=/portal/cms/edit_structure_display_page")
 	private StrutsAction _editStructureDisplayPageStrutsAction;
 
 	private Group _group;

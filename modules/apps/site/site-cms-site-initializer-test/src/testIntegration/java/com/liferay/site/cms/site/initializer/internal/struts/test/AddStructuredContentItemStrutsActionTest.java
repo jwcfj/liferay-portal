@@ -319,7 +319,7 @@ public class AddStructuredContentItemStrutsActionTest {
 	@Inject
 	private static GroupLocalService _groupLocalService;
 
-	@Inject(filter = "path=/cms/add_structured_content_item")
+	@Inject(filter = "path=/portal/cms/add_structured_content_item")
 	private StrutsAction _addStructuredContentItemStrutsAction;
 
 	private DepotEntry _depotEntry;
