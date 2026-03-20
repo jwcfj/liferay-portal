@@ -35,7 +35,7 @@ import org.osgi.service.component.annotations.Reference;
  * @author Fabio Monaco
  */
 @Component(
-	property = "path=/cms/get_asset_comments", service = StrutsAction.class
+	property = "path=/portal/cms/get_asset_comments", service = StrutsAction.class
 )
 public class GetContentItemCommentStrutsAction implements StrutsAction {
 

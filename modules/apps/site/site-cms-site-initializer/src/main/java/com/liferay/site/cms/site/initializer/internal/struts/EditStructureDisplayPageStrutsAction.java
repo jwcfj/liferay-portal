@@ -26,7 +26,7 @@ import org.osgi.service.component.annotations.Reference;
  * @author Lourdes Fernández Besada
  */
 @Component(
-	property = "path=/cms/edit_structure_display_page",
+	property = "path=/portal/cms/edit_structure_display_page",
 	service = StrutsAction.class
 )
 public class EditStructureDisplayPageStrutsAction implements StrutsAction {

@@ -33,7 +33,7 @@ import org.osgi.service.component.annotations.Reference;
  * @author Víctor Galán
  */
 @Component(
-	property = "path=/cms/reset_translation_display_page",
+	property = "path=/portal/cms/reset_translation_display_page",
 	service = StrutsAction.class
 )
 public class ResetTranslationDisplayPageStrutsAction implements StrutsAction {

@@ -33,7 +33,7 @@ import org.osgi.service.component.annotations.Reference;
  * @author Víctor Galán
  */
 @Component(
-	property = "path=/cms/subscribe_content_item", service = StrutsAction.class
+	property = "path=/portal/cms/subscribe_content_item", service = StrutsAction.class
 )
 public class SubscribeContentItemStrutsAction implements StrutsAction {
 

@@ -41,7 +41,7 @@ import org.osgi.service.component.annotations.Reference;
  * @author Víctor Galán Grande
  */
 @Component(
-	property = "path=/cms/regenerate_structure_display_page",
+	property = "path=/portal/cms/regenerate_structure_display_page",
 	service = StrutsAction.class
 )
 public class RegenerateStructureDisplayPageStrutsAction

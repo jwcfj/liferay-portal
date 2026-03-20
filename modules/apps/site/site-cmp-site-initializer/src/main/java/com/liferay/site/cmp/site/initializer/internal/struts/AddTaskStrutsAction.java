@@ -32,7 +32,7 @@ import org.osgi.service.component.annotations.Reference;
 /**
  * @author Gabriel Albuquerque
  */
-@Component(property = "path=/cms/add_task", service = StrutsAction.class)
+@Component(property = "path=/portal/cms/add_task", service = StrutsAction.class)
 public class AddTaskStrutsAction implements StrutsAction {
 
 	@Override

@@ -37,7 +37,7 @@ import org.osgi.service.component.annotations.Reference;
  * @author Lourdes Fernández Besada
  */
 @Component(
-	property = "path=/cms/reset_structure_display_page",
+	property = "path=/portal/cms/reset_structure_display_page",
 	service = StrutsAction.class
 )
 public class ResetStructureDisplayPageStrutsAction implements StrutsAction {

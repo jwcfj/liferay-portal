@@ -30,7 +30,7 @@ import org.osgi.service.component.annotations.Reference;
  * @author Víctor Galán
  */
 @Component(
-	property = "path=/cms/translate_content_item", service = StrutsAction.class
+	property = "path=/portal/cms/translate_content_item", service = StrutsAction.class
 )
 public class TranslateContentItemStrutsAction implements StrutsAction {
 

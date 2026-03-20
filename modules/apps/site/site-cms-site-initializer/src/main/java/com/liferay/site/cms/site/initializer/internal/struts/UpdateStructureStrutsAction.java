@@ -46,7 +46,7 @@ import org.osgi.service.component.annotations.Reference;
  * @author Víctor Galán
  */
 @Component(
-	property = "path=/cms/update-structure", service = StrutsAction.class
+	property = "path=/portal/cms/update-structure", service = StrutsAction.class
 )
 public class UpdateStructureStrutsAction implements StrutsAction {
 

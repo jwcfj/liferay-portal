@@ -28,7 +28,7 @@ import org.osgi.service.component.annotations.Reference;
  * @author Víctor Galán
  */
 @Component(
-	property = "path=/cms/delete_content_item_comment",
+	property = "path=/portal/cms/delete_content_item_comment",
 	service = StrutsAction.class
 )
 public class DeleteContentItemCommentStrutsAction implements StrutsAction {

@@ -38,7 +38,7 @@ import org.osgi.service.component.annotations.Reference;
  * @author Lourdes Fernández Besada
  */
 @Component(
-	property = "path=/cms/add_structured_content_item",
+	property = "path=/portal/cms/add_structured_content_item",
 	service = StrutsAction.class
 )
 public class AddStructuredContentItemStrutsAction implements StrutsAction {

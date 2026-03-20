@@ -39,7 +39,7 @@ import org.osgi.service.component.annotations.Reference;
  * @author Víctor Galán
  */
 @Component(
-	property = "path=/cms/delete-structure", service = StrutsAction.class
+	property = "path=/portal/cms/delete-structure", service = StrutsAction.class
 )
 public class DeleteStructureStrutsAction implements StrutsAction {
 

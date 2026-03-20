@@ -48,7 +48,7 @@ import org.osgi.service.component.annotations.Reference;
  * @author Víctor Galán Grande
  */
 @Component(
-	property = "path=/cms/get_object_entries_values",
+	property = "path=/portal/cms/get_object_entries_values",
 	service = StrutsAction.class
 )
 public class GetObjectEntriesValuesStrutsAction implements StrutsAction {

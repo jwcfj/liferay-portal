@@ -41,7 +41,7 @@ import org.osgi.service.component.annotations.Reference;
 /**
  * @author Gabriel Albuquerque
  */
-@Component(property = "path=/cms/add_project", service = StrutsAction.class)
+@Component(property = "path=/portal/cms/add_project", service = StrutsAction.class)
 public class AddProjectStrutsAction implements StrutsAction {
 
 	@Override

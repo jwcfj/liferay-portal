@@ -27,7 +27,7 @@ import org.osgi.service.component.annotations.Reference;
  * @author Víctor Galán Grande
  */
 @Component(
-	property = "path=/cms/get_object_definition_deletion_info",
+	property = "path=/portal/cms/get_object_definition_deletion_info",
 	service = StrutsAction.class
 )
 public class GetObjectDefinitionDeleteInfoStrutsAction implements StrutsAction {
